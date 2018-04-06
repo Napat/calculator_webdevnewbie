@@ -13,7 +13,8 @@
     <hr/><br/>
     <div id="container">
         <form name="calc">
-            <input type="text" name="output" placeholder="0" />
+            <!-- Only accept input from ui: disabled input text to prevent keyboard(easy method but easily hacked) -->
+            <input type="text" name="output" placeholder="0" disabled="disabled"/>
             <br/>
             
             <input type="button" value=" 1 " onclick="entries('1')" />
@@ -41,7 +42,7 @@
             <br/>
 
             <input type="button" value=" c " onclick="erase()" />
-            <input type="button" value=" . " onclick="entries('0')" />
+            <input type="button" value=" . " onclick="entries('.')" />
             <input type="button" value=" = " onclick="calculate()" />
             <input type="button" value=" % " onclick="entries('%')" />
             <br/>

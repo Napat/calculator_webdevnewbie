@@ -50,6 +50,12 @@ input[type=button] {
    /*  border-width: 0px; */
 }
 
+/* Pseudo-classes Selector: mouse over */
 input[type=button]:hover {
     background-color: #8c8c8c;
+}
+
+/* Pseudo-classes Selector: input with disabled prop then change default color */
+input[type="text"]:disabled {
+    color: black;
 }
