@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #99ffcc;   
+    background-color: #93f273;   
 }
 
 hr {
@@ -27,7 +27,13 @@ h1 {
     border: 3px solid #666666;
     margin: 30px auto;
     border-radius: 5px;
-    background-color: #e1e1e1;
+    background-color: #666666;
+    /* CSS3 - Box shadow */
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    -ms-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+
 }
 
 input[type=text] {
@@ -45,9 +51,14 @@ input[type=button] {
     background: #b3b3b3;
     width: 20%;
     margin: 1.85%;   /* ??? 2% */
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 600;
     border-radius: 10%;    
-   /*  border-width: 0px; */
+    /* CSS3 - Box shadow */
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.7);
+    -ms-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* Pseudo-classes Selector: mouse over */
