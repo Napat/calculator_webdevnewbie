@@ -5,7 +5,10 @@
 }
 
 html {
-    background-color: #93f273;   
+    /* background-color: #93f273;  */
+    /* Radial gradient background - css3 */
+    background: radial-gradient( rgba(13, 48, 58, 0.616), rgba(24, 62, 133, 0.295), rgba(48, 13, 104, 0.253));
+    text-align: center;
 }
 
 hr {
@@ -15,7 +18,7 @@ hr {
 
 h1 {
     text-align: center;
-    color: #660000;
+    color: #111c58;
     height: 50px;
     font-size: 50px;
     padding: 35px;
@@ -69,4 +72,36 @@ input[type=button]:hover {
 /* Pseudo-classes Selector: input with disabled prop then change default color */
 input[type="text"]:disabled {
     color: black;
+}
+
+table#display {
+    border-collapse: collapse;
+    width: 70%;    
+    background-color: #888888;
+    margin: 5px auto 10px auto;
+    /* CSS3 - Box shadow */
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    -ms-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+table, th, td {
+    /* border: 1px solid #666666; */
+    border-radius: 10px;    
+    padding: 5px;
+}
+
+th {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial;
+    color: black;
+}
+
+td {
+    font-size: 12px;
+    font-weight: 150;
+    font-family: Georgia;
+    color: #111111;    
 }
