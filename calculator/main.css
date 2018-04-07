@@ -27,10 +27,10 @@ h1 {
 #container {
     position: relative;
     width: 300px;
-    border: 3px solid #666666;
+    border: 3px solid #525252;
     margin: 30px auto;
     border-radius: 5px;
-    background-color: #666666;
+    background-color: #525252;
     /* CSS3 - Box shadow */
     -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
     -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
@@ -64,9 +64,29 @@ input[type=button] {
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
+input#calclear {
+    border: 1px solid #ca7a11;
+    background-color: #dd7007;    
+}
+
+input.caloperator {
+    border: 1px solid #ada9a5;
+    background-color: #928f8f;      
+}
+
 /* Pseudo-classes Selector: mouse over */
 input[type=button]:hover {
     background-color: #8c8c8c;
+}
+
+input#calclear:hover {
+    border: 1px solid #c9780f;
+    background-color: #bb6000;    
+}
+
+input.caloperator:hover {
+    border: 1px solid #494745;
+    background-color: #494747; 
 }
 
 /* Pseudo-classes Selector: input with disabled prop then change default color */
@@ -80,10 +100,10 @@ table#display {
     background-color: #888888;
     margin: 5px auto 10px auto;
     /* CSS3 - Box shadow */
-    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
-    -ms-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
+    -ms-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
 table, th, td {
