@@ -1,0 +1,23 @@
+{
+    "name": "calculator_electron",
+    "version": "1.0.0",
+    "description": "A minimal Calculator using Electron",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/Napat/webdevnewbie",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo",
+        "calculator"
+    ],
+    "author": "Napat Rc.",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^1.8.4"
+    }
+}
